@@ -13,7 +13,7 @@ VALUES
 ( 'Carol King', 'Mountain Range');
 
 SELECT * FROM rangers ;
-DROP TABLE rangers;
+-- DROP TABLE rangers;
 
 CREATE TABLE species (
     species_id SERIAL PRIMARY KEY ,
@@ -35,7 +35,7 @@ VALUES
 
 SELECT * FROM species;
 
-DROP TABLE species;
+-- DROP TABLE species;
 
 
 CREATE TABLE sightings (
@@ -60,7 +60,7 @@ VALUES
 (4, 1, 2, 'Snowfall Pass', '2024-05-18 18:30:00', NULL);
 
 SELECT * FROM sightings ;
-DROP TABLE sightings ;
+-- DROP TABLE sightings ;
 
 
 
